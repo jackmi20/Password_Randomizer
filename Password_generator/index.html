@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h1>Password Generator</h1>
+<body>
+    <script src="script.js"></script>
+
+        <label>Password Length</label>
+        <input type="number" id="pwlength" max="128" min="8">
+        <br>
+        <label>Uppercase Letters</label>
+        <input type="checkbox" id="ulcheck" checked>
+        <br>
+        <label>Lowercase Letters</label>
+        <input type="checkbox" id="llcheck" checked>
+        <br>
+        <label>Numbers</label>
+        <input type="checkbox" id="ncheck" checked>
+        <br>
+        <label>Special Characters</label>
+        <input type="checkbox" id="sccheck" checked>
+        <br>
+        <button onclick="myFunction()">Generate Password</button>
+    
+</body>
+</html>
